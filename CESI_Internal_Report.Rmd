@@ -10,7 +10,7 @@ output: pdf_document
 
 ```{r setup, include = FALSE}
 
-# Old year to search for: 2010
+# Old year to search for: 2019
 #######################################################-
 #             R MARKDOWN INTERNAL REPORT
 #
@@ -89,7 +89,7 @@ HYDAT database version date: `r version`
 ## Local Water Quantity Indicator
 
 \begin{figure}[H]
-    \includegraphics{./Output/2010/Local_2010.png}
+    \includegraphics{./Output/2019/Local_2019.png}
     \caption{Local indicator map with hydrometric station points across Canada}
 \end{figure}
 
@@ -100,7 +100,7 @@ HYDAT database version date: `r version`
 ## Regional Water Quantity Indicator
 
 \begin{figure}[H]
-    \includegraphics{./Output/2010/Regional_2010.png}
+    \includegraphics{./Output/2019/Regional_2019.png}
     \caption{Regional indicator map with based on most downstream stations in each Pearse Drainage Region}
 \end{figure}
 
@@ -165,7 +165,7 @@ kable(rtable1, format = "markdown", row.names= FALSE)
 ## National Water Quantity Indicator
 
 \begin{figure}[H]
-    \includegraphics{./Output/2010/2010_national_indicator_HYDAT_2021-07.png}
+    \includegraphics{./Output/2019/2019_national_indicator_HYDAT_2021-07.png}
     \caption{Overall classifications for all hydrometric stations in Canada in analysis year}
 \end{figure}
 

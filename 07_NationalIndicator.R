@@ -43,6 +43,6 @@
   cat(paste(year_id, all, round(proplow*100), round(propnorm*100), round(prophigh*100), sep=","), file = dataout, append = T, fill = T)
 
 # Remove intermediate objects
-    rm(all, high, low, normal, pct, prophigh, proplow, propnorm, slices, lbls)
+    # rm(all, high, low, normal, pct, prophigh, proplow, propnorm, slices, lbls)
     gc()
     

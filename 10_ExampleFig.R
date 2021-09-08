@@ -12,7 +12,7 @@ PDA <- readOGR("./Map_Creation/PDAs.shp")
 N.Sask <- PDA[PDA$PEARSEDA=="North Saskatchewan",]
 crs<-N.Sask@proj4string
 
-data <- read.csv("./Output/2019/2019_regional_entry_HYDAT_2021-05.csv", header = TRUE)
+data <- read.csv("./Output/2019/2019_regional_entry_HYDAT_2021-07.csv", header = TRUE)
 data.sask <- data[data$PEARSEDA=="North Saskatchewan",]
 sask.xy <- data.sask[,c("Longitude", "Latitude")]
 crs_wgs <- CRS( "+init=epsg:4326")
@@ -24,7 +24,7 @@ river_proj <- sp::spTransform(river, CRSobj = crs)
 
 
 # directory for shapefiles
-shp_dir <- "V:/Data/RHBN_2019/RHBNBasinPolygons/All_Polygons/"
+shp_dir <- "./Dependencies/All_Polygons/"
 # extract shapefile names
 shapefiles <- list.files(shp_dir, pattern = "*.shp$", full.names = T)
 
@@ -62,6 +62,6 @@ plot(stn_plot,pch=21, add=TRUE)
 par(mar=c(0,0,0,0))
 legend("bottomleft", inset = c(0.05, 0.1), txt, lty=lty, pch=pch,pt.bg=pt.bg,col=col, fill=fill,
        border=border, bty="n", y.intersp = 2, box.cex=c(2,1.5))
-title("North Saskatchewan Drainage Region - 2017 WQI Results", line = -3, cex=1)
+title("North Saskatchewan Drainage Region - 2019 WQI Results", line = -3, cex=1)
 dev.off()
 

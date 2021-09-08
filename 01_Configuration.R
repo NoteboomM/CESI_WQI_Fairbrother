@@ -11,7 +11,7 @@
 ### (1) Date specifications ###
 
 # Specify the year of interest
-  year_id <- 2010
+  year_id <- 2019
   
 # Set the normal period dates
   normal_start <- as.Date("1981-01-01") 

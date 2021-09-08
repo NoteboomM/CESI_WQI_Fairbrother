@@ -155,9 +155,9 @@ png(file = paste("Output/", year_id, "/Local_",year_id,".png", sep = ""),
 dev.off()
 
 # Clean up files
-rm(list = c("ID", "ID2", "lambert", "legend1", "Local", "LocalSpatial", "Pearse", "Regional",
-            "WaterBodies", "IDcolour", "Loc.bg", "Loc.col", "local.items", "local.leg.col",
-            "local.leg.pt.bg", "symbol"))
+# rm(list = c("ID", "ID2", "lambert", "legend1", "Local", "LocalSpatial", "Pearse", "Regional",
+#             "WaterBodies", "IDcolour", "Loc.bg", "Loc.col", "local.items", "local.leg.col",
+#             "local.leg.pt.bg", "symbol"))
 gc()
 
 # unload map packages and reload data.table (raster package masks some functions in data.table)

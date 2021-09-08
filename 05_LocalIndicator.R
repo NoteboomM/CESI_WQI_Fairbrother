@@ -85,6 +85,6 @@
 ### Refer to the CESI_Map_Creation document for using this spreadsheet to create a local map for internal use ###
   
 # Remove intermediate objects
-  rm("agency_names", "na_stations", "output_table", "pearse_cols", "pearse_complete", "pearse_short_codes", "stations",
-     "stn_short", "year_range", "stn_regulation", "yoi_with_pearse", "yoi_copy")
+  # rm("agency_names", "na_stations", "output_table", "pearse_cols", "pearse_complete", "pearse_short_codes", "stations",
+  #    "stn_short", "year_range", "stn_regulation", "yoi_with_pearse", "yoi_copy")
   

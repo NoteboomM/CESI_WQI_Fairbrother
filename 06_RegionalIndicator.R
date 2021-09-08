@@ -147,10 +147,10 @@
 
 # Refer to the CESI_Map_Creation document for using this spreadsheet to create a regional map for internal use
 
-  rm(downstream_details, downstream_stations, high_areas, low_areas, M, major_class, no_stations, normal_areas, pd_area, 
-     reg_table, regional_area, regional_entry, station_drainage, station_new_drainage, x, yoi_complete, coverage, p_drainage, 
-     add_station_to_table, check_symmetry, check_transitivity, findDownstreamStations, get_downstream, get_upstream, 
-     initialize_matrix_from_stations, load_table, most_downstream, populate_table_from_delineations, read_coverage_tree,
-     readsimple, save_table, set_downstream, set_downstream_recursive, set_relative_position, set_upstream, set_upstream_recursive, 
-     subset_table, tree_get_all_upstream, tree_get_upstream, tree_to_matrix, upstream_stations_from_delineation)
+  # rm(downstream_details, downstream_stations, high_areas, low_areas, M, major_class, no_stations, normal_areas, pd_area, 
+  #    reg_table, regional_area, regional_entry, station_drainage, station_new_drainage, x, yoi_complete, coverage, p_drainage, 
+  #    add_station_to_table, check_symmetry, check_transitivity, findDownstreamStations, get_downstream, get_upstream, 
+  #    initialize_matrix_from_stations, load_table, most_downstream, populate_table_from_delineations, read_coverage_tree,
+  #    readsimple, save_table, set_downstream, set_downstream_recursive, set_relative_position, set_upstream, set_upstream_recursive, 
+  #    subset_table, tree_get_all_upstream, tree_get_upstream, tree_to_matrix, upstream_stations_from_delineation)
   gc()
